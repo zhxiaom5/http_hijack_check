@@ -3,6 +3,7 @@
 http_hijack_check是使用go写的一个小工具，可以修改http请求的ttl值。通过ttl值的逐渐增大，可以大致判断劫持发生的位置
 
 ## 使用说明
+```
  ./http_hijack_check   -h
 flag needs an argument: -h
 Usage of ./http_hijack_check:
@@ -23,3 +24,4 @@ Usage of ./http_hijack_check:
         maxttl (default 64)
   -u string
         the hijacked url (default "/index.html")
+```
